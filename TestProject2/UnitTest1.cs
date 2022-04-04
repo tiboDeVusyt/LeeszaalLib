@@ -1,6 +1,5 @@
 using LeeszaalLib;
 using NUnit.Framework;
-using System;
 
 namespace TestProject2.Tests
 {
@@ -12,7 +11,6 @@ namespace TestProject2.Tests
         {
            
         }
-
         [Test]
         public void Lanch()
         {
@@ -44,8 +42,6 @@ namespace TestProject2.Tests
             var expextedCount = 4 ;
 
             Assert.AreEqual(expextedCount, Hat.Hats().Count);
-
         }
-
     }
 }

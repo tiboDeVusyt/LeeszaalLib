@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 
 namespace LeeszaalLib
 {
@@ -11,9 +7,6 @@ namespace LeeszaalLib
     {
         public static List<Person> people = new List<Person>();
         public static List<Magazine> magazines = new List<Magazine>();
-        
-
-
         public static void Lanch()
         {
 
@@ -52,9 +45,7 @@ namespace LeeszaalLib
             AmountOfReaders += startindex;
             for (int i = startindex; i < AmountOfReaders; i++)
             {
-
                 List<string> hats = new List<string>(Hat.Hats());
-
                 int randHat = rand.Next(0, 4);
                 int randColor = rand.Next(0, 5);
                 int randPerson = rand.Next(0, 14);
