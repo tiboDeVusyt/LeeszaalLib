@@ -73,7 +73,7 @@ namespace FormUi
         {
             if (Convert.ToInt32(txtAddCount.Text) <= 10)
             {
-                ClassManger.Add(Convert.ToInt32(txtAddCount.Text),21);
+                ClassManger.Add(Convert.ToInt32(txtAddCount.Text));
                 lstReaders.Items.Clear();
                 foreach (var item in Reader.readers)
                 {
@@ -85,10 +85,5 @@ namespace FormUi
                 MessageBox.Show("u can't add more than 10 readers at a time");
             }
         }
-        public static void Both(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeeszaalLib", "LeeszaalLib\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormUi", "FormUi\FormUi.csproj", "{4B084294-E738-4757-9F0C-316A2B214F9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject2", "TestProject2\TestProject2.csproj", "{EA2FAED5-DBD5-48A8-92F8-F04F9B0D65DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4B084294-E738-4757-9F0C-316A2B214F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B084294-E738-4757-9F0C-316A2B214F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B084294-E738-4757-9F0C-316A2B214F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2FAED5-DBD5-48A8-92F8-F04F9B0D65DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2FAED5-DBD5-48A8-92F8-F04F9B0D65DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2FAED5-DBD5-48A8-92F8-F04F9B0D65DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2FAED5-DBD5-48A8-92F8-F04F9B0D65DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

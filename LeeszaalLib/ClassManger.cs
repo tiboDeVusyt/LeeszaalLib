@@ -42,15 +42,15 @@ namespace LeeszaalLib
                 magazines.Add(new Magazine() {Color = item});
             }
             //Reader reader1 = new Reader() {ReferenceNumber = 1,Hat = hats[randHat],magazine = Colors[randColor] };
-                Add(20,0);
+                Add(20);
         }
-        public static void Add( int j,int startindex)
+        public static void Add( int AmountOfReaders/*,int startindex*/)
         {
             Reader reader = new Reader();
             Random rand = new Random();
-            if (startindex < 0) startindex = Reader.readers.Count;
-            j += startindex;
-            for (int i = startindex; i < j; i++)
+            /*if (startindex <= 0)*/ int startindex = Reader.readers.Count;
+            AmountOfReaders += startindex;
+            for (int i = startindex; i < AmountOfReaders; i++)
             {
 
                 List<string> hats = new List<string>(Hat.Hats());
